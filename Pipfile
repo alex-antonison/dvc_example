@@ -1,0 +1,19 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[packages]
+dvc = "*"
+
+[dev-packages]
+black = "==19.3b0"
+flake8 = "*"
+ipython = {extras = ["notebook"]}
+isort = "*"
+jupyter = {extras = ["notebook"]}
+pre-commit = "*"
+pytest = "*"
+
+[requires]
+python_version = "3.8"
